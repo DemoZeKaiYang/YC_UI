@@ -1,0 +1,29 @@
+.ea-button{
+    display: inline-block;
+    line-height: 1;
+    white-space: nowrap;
+    cursor: pointer;
+    background-color: #fff;
+    border: 1px solid #dcdfe6;
+    color:#606266;
+    // 该css用来移除html属性默认外观样式主要用于早期webkit浏览器例如（Safari和早期Chrome）
+    -webkit-appearance: none;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0;
+    transition: 0.1s;
+    font-weight: 500;
+    padding: 12px 20px;
+    font-size: 14px;
+    border-radius: 4px;
+}
+.ea-button.ea-button--primary{
+    color:#fff;
+    background-color: #409eff;
+    border-color: #409eff;
+    &:hover{
+        background: #66b1ff;
+        border-color: #66b1ff;
+        color:#fff;
+    }
+}

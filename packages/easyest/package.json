@@ -1,0 +1,21 @@
+{
+  "name": "easyest",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "module": "es/index.mjs",
+  "files": [
+    "es",
+    "lib"
+  ],
+  "keywords": [
+    "easyest",
+    "vue3组件库"
+  ],
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "author": "duolatmeng",
+  "license": "MIT",
+  "description": "",
+  "typings": "lib/index.d.ts"
+}
