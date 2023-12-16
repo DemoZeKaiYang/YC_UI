@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:blackwhite_ui_kit": "gulp -f packages/components/script/build/index.ts",
-    "release": "release-it"
+    "publish:blackwhite_ui_kit": "gulp -f packages/components/script/publish/index.ts"
   },
   "keywords": [],
   "author": "",
