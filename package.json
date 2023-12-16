@@ -1,19 +1,30 @@
 {
-  "name": "easyest",
+  "name": "blackwhite_ui_kit",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:blackwhite_ui_kit": "gulp -f packages/components/script/build/index.ts",
+    "release": "release-it"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "module",
   "devDependencies": {
+    "@types/gulp": "^4.0.17",
+    "@types/gulp-autoprefixer": "^0.0.37",
+    "@types/gulp-less": "^0.0.36",
+    "@types/node": "^20.10.4",
     "@vitejs/plugin-vue": "^4.5.2",
     "@vue/runtime-core": "^3.3.11",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-less": "^5.0.0",
     "less": "^4.2.0",
+    "release-it": "^17.0.1",
+    "sucrase": "^3.34.0",
     "typescript": "^5.3.3",
     "unplugin-vue-define-options": "^1.4.1",
     "vite": "^5.0.9",
